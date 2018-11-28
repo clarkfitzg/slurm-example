@@ -1,22 +1,27 @@
-Tue Oct  9 10:55:42 PDT 2018
+host name is `gauss.cse.ucdavis.edu`.
 
-# SLURM save and load experiment
+Login to the head node with:
 
-I can save and load the material on the network file system where my home directory is, or on the local node hard drives.
+```
+ssh user@gauss.cse.ucdavis.edu
+```
 
-Here are some questions I have:
+You should see a bash shell prompt with `$`.
+Enter commands here.
+From the prompt at the head node use `srun` to begin an interactive R session on a worker node.
+Do not copy and paste the `$`
 
-Will the NFS serve multiple large data files in serial or in parallel?
+```
+$ srun R --vanilla
+```
 
-Consider two jobs.
-Let S be the size of the whole data, and g be the number of groups (matching notation in my other write up)
-The serial job will save g groups of data, each of size
-It 
+Now we are in an interactive R session on a worker node.
+Verify this by entering an R command:
 
-I can find out by checking the time stamp when each file is loaded / saved for both large and small .
-I can do this 
+```
+> system("hostname")
+c0-11
+```
 
-for a job with only one node, and for a job with n nodes.
-If the job with n nodes takes n times longer for 
+This is different from the hostname `gauss` that we logged into, showing we are on a worker node.
 
-The timing results may depend on external things that I can't control, for example the locations of the files in the RAID array, or the load on the system from other users.
