@@ -15,3 +15,5 @@ pars <- data.frame(par_mu = 1:10,
 
 sjob <- slurm_apply(test_func, pars, jobname = 'test_apply',
                     nodes = 2, cpus_per_node = 2, submit = FALSE)
+
+res_raw <- get_slurm_out(sjob, outtype = 'raw')
