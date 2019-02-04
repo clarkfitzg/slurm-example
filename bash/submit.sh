@@ -4,6 +4,6 @@
 #SBATCH --partition=staclass
 
 # Specific to our analysis
-DATAFILE=/home/clarkf/transaction.zip
+ZIPFILE=cars.zip
 
-bash header.sh $DATAFILE
+bash first_line_zipfile.sh $ZIPFILE
