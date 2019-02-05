@@ -14,4 +14,3 @@ Run them from a cluster with:
 ```
 sbatch ./submit.sh
 ```
-
