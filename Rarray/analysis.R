@@ -1,15 +1,15 @@
 # The command line arguments from the script
 args = commandArgs(TRUE)
-job_number = args[1]
-seed = as.integer(args[2])
+job_number = as.integer(args[1])
+iseed = as.integer(args[2])
 
 # This ensures that each simulation has an independent random number stream.
 # Based off clusterSetRNGStream in R's parallel package
 RNGkind("L'Ecuyer-CMRG")
-if(0 < job_number){
-    for(i in seq(job_number)) seed = parallel::nextRNGStream(seed)
-}
-set.seed(seed)
+set.seed(iseed)
+seed_tmp = .Random.seed
+for(i in seq(job_number)) seed_tmp = parallel::nextRNGStream(seed_tmp)
+.Random.seed = seed_tmp
 
 # Simulate 
 result = mean(rnorm(100))

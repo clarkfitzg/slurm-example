@@ -4,31 +4,10 @@
  
 ###############################################################################
 ##
-## NOTES:
-##
 ## Submit as:
 ## 
-##    sbatch ./jimsjob.sh
+##    sbatch ./submit.sh
 ## 
-## (1) When specifying --array as a range it must start from a positive
-##     integer e.g.,
-##       sbatch --array=0-9 
-##     is not allowed.
-##
-## (2) Negative numbers are not allowed in --range
-##     e.g.,
-##      sbatch --array=-5,-4,-3,-2,-1,0,1,2,3,4,5
-##     is NOT allowed.
-##
-## (3) Zero can be included if specified separately.
-##    e.g., 
-##       sbatch --array=0,1-9
-##     is allowed.
-##
-## (4) Ranges can be combined with specified job numbers.
-##    e.g., 
-##       sbatch --array=0,1-4,6-10,50-100
-##     is allowed.
 ##
 ###############################################################################
 
