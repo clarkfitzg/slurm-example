@@ -5,6 +5,9 @@
 # Use the staclass partition. Only applies if you are in STA141C
 #SBATCH --partition=staclass
 
+# Give the job a name
+#SBATCH --job-name=Rtest
+
 # Specify which version of the software you want to use, and make it available
 module load R/3.3.2
 

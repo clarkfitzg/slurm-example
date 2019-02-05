@@ -1,7 +1,9 @@
+# Seed the random number generator to make results reproducible
+iseed = 37
+
 # The command line arguments from the script
 args = commandArgs(TRUE)
 job_number = as.integer(args[1])
-iseed = as.integer(args[2])
 
 # This ensures that each simulation has an independent random number stream.
 # Based off clusterSetRNGStream in R's parallel package
