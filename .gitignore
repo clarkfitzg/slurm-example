@@ -1,6 +1,4 @@
-# output files
-*.out
-
+*.rds
 *.RDS
 *.out
 

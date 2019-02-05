@@ -1,8 +1,8 @@
 #!/bin/bash -l
 
+# From https://wiki.cse.ucdavis.edu/support/systems/gauss
+ 
 ###############################################################################
-##
-## From https://wiki.cse.ucdavis.edu/support/systems/gauss
 ##
 ## NOTES:
 ##
@@ -32,6 +32,8 @@
 ##
 ###############################################################################
 
+# For STA141C students
+#SBATCH --partition=staclass
 
 # Name of the job - you'll probably want to customize this.
 #SBATCH --job-name=jimsjob
