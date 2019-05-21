@@ -17,7 +17,7 @@
 # This specifies 10 different jobs:
 #SBATCH --array=1-10
 
-module load R/3.3.2
+module load R
 
 # Execute each of the jobs with a different index.
 # The R script will use the distinct values of SLURM_ARRAY_TASK_ID

@@ -14,7 +14,7 @@
 #SBATCH --job-name=Rtest
 
 # Specify which version of the software you want to use, and make it available
-module load R/3.3.2
+module load R
 
 # Just like I would run my program on the command line
 Rscript analysis.R
