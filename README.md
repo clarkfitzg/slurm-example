@@ -30,6 +30,7 @@ Cluster Resources:
 - [Introduction to Gauss slides](https://wiki.cse.ucdavis.edu/_media/support/systems/intro_to_gauss_slides.pdf) Paul Baines
 - [Secure Shell (SSH)](https://wiki.cse.ucdavis.edu/support/general/security/ssh)
 - [National supercomputer access through XSEDE trial account](https://www.xsede.org/web/xup/allocations/startup)
+- [Git workshops](https://forms.library.ucdavis.edu/classes/descriptions.php) Coming up soon, Friday May 31, 2019.
 
 UC Davis Specific:
 
@@ -37,7 +38,6 @@ UC Davis Specific:
 - [Monitoring](http://stats.cse.ucdavis.edu/ganglia/)
 - [Requesting Access to Peloton](https://wiki.cse.ucdavis.edu/cgi-bin/mps.pl)
 - email help@cse.ucdavis.edu to install software and get access if you're not in this class.
-
 
 
 Draw picture of architecture.
