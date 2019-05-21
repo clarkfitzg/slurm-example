@@ -22,11 +22,20 @@ for STA 141C class
 
 Cluster Resources:
 
+- [Brief RTG slides](https://docs.google.com/presentation/d/1n75qypTXkvcILOi-B-YoLWa-_7100B54M8GvkiYDkgc/edit?usp=sharing)
 - [SLURM documentation](https://slurm.schedmd.com/)
 - [Gauss wiki](https://wiki.cse.ucdavis.edu/support/systems/gauss)
 - [Introduction to Gauss slides](https://wiki.cse.ucdavis.edu/_media/support/systems/intro_to_gauss_slides.pdf) Paul Baines
-- [Cluster monitoring](http://stats.cse.ucdavis.edu/ganglia/)
+- [Secure Shell (SSH)](https://wiki.cse.ucdavis.edu/support/general/security/ssh)
+- [National supercomputer access through XSEDE trial account](https://www.xsede.org/web/xup/allocations/startup)
+
+Davis Specific:
+
+- [Available Clusters](http://www.hpc.ucdavis.edu/)
+- [Monitoring](http://stats.cse.ucdavis.edu/ganglia/)
+- [Requesting Access to Peloton](https://wiki.cse.ucdavis.edu/cgi-bin/mps.pl)
 - email help@cse.ucdavis.edu to install software and get access if you're not in this class.
+
 
 
 Draw picture of architecture.
@@ -63,7 +72,8 @@ $ ssh s141c-76@gauss.cse.ucdavis.edu
 ```
 
 `ssh` means 'secure shell'.
-It prompts me for my password, but no letters appear as I type.
+
+If you don't have your SSH keys set up it will prompt you for a password, but no letters appear as you type.
 This is normal (otherwise you would see how long my password is! GASP!)
 I type it in and press enter, and then I see this:
 
