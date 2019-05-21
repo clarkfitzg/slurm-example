@@ -1,3 +1,5 @@
+Hello attendees
+
 # slurm
 
 This repository contains materials introducing the campus compute clusters with R.
@@ -29,7 +31,7 @@ Cluster Resources:
 - [Secure Shell (SSH)](https://wiki.cse.ucdavis.edu/support/general/security/ssh)
 - [National supercomputer access through XSEDE trial account](https://www.xsede.org/web/xup/allocations/startup)
 
-Davis Specific:
+UC Davis Specific:
 
 - [Available Clusters](http://www.hpc.ucdavis.edu/)
 - [Monitoring](http://stats.cse.ucdavis.edu/ganglia/)
