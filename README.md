@@ -22,7 +22,8 @@ sbatch ./submit.sh
 Given Tue Feb  5 11:41:23 PST 2019
 for STA 141C class
 
-[Demo video](https://asciinema.org/a/uXtGOXpLi4N3YCWEl6FOQcaev)
+[Demo video 1](https://asciinema.org/a/uXtGOXpLi4N3YCWEl6FOQcaev)
+[Demo video 2](https://asciinema.org/a/4HTCijH5gAJJjdee6Kz7fn37G)
 
 Cluster Resources:
 
