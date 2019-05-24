@@ -22,6 +22,8 @@ sbatch ./submit.sh
 Given Tue Feb  5 11:41:23 PST 2019
 for STA 141C class
 
+[Demo video](https://asciinema.org/a/uXtGOXpLi4N3YCWEl6FOQcaev)
+
 Cluster Resources:
 
 - [Brief RTG slides](https://docs.google.com/presentation/d/1n75qypTXkvcILOi-B-YoLWa-_7100B54M8GvkiYDkgc/edit?usp=sharing)
